@@ -1,0 +1,14 @@
+EMPIRE
+START
+
+
+STRENGTH
+
+
+PEOPLE
+
+
+COLOR
+
+
+END

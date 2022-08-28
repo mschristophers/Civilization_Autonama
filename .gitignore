@@ -1,0 +1,12 @@
+# Windows
+*.dll
+*.exe
+*.sln
+*.vcxproj
+*.filters
+*.user
+*.vs
+.vscode
+Debug/
+Linking/
+Release/

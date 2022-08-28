@@ -1,0 +1,41 @@
+If you want to customise your experience, then simply edit the values in config.txt.
+
+Recommended:
+Image:          world_map_full.png [Put a pic in the res/Maps/ folder, must be green and blue]
+Reproduction:   8  [This is the threshold of reproduction, lower = higher birthrate]
+Empires:        10 [This is the number of empires the simulation begins with]
+PLEASE NOTE, setting the empire count too high can cause CRASHES, hence it will check your number, and change it if you set it too high!
+
+
+Controls:
+
+    WASD -> Pan Camera
+    Up/Down -> Zoom in/ out
+
+Custom Empires
+    You must change the value in config.txt CUSTOM_START from 0 to 1
+    You must have a corresponding file for the image in the res/Starts/ folder with the following format for each empire:
+
+------------------------------------
+    EMPIRE
+    START
+    x y
+
+    STRENGTH
+    low high
+
+    PEOPLE
+    n
+
+    COLOR
+    r g b
+    END
+------------------------------------
+
+    Where:
+        START       refers to the start point of the empire
+        STRENGTH    refers to the range of strength values for the empire's pioneers
+        PEOPLE      refers to how many people the empire starts with
+        COLOR       refers to the RGB color values of the empire
+
+For an example, view res/Starts/world_map.txt
