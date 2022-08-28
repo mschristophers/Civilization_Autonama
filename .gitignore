@@ -1,3 +1,7 @@
+# Linux
+/bin
+empire
+
 # Windows
 *.dll
 *.exe
@@ -10,3 +14,10 @@
 Debug/
 Linking/
 Release/
+
+# Misc
+*.zip
+*.temp
+*.srctrlprj
+*.srctrldb
+*.srctrlbm
