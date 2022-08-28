@@ -10,6 +10,7 @@ empire
 *.filters
 *.user
 *.vs
+*.rc
 .vscode
 Debug/
 Linking/
